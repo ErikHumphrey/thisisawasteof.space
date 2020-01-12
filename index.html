@@ -1,12 +1,25 @@
 <html>
   <head>
     <title>thisisawasteof.space</title>
+    <style>
+      .container {
+        position: relative;
+      }
+
+      .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
+      }
+    </style>
   </head>
   <body>
-    <p style="color: red;">
-      This text is pretty red!
-    </p>
-    
-    <center><iframe width="560" height="315" src="https://www.youtube.com/embed/VDGD7kEiksQ?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+    <div class="container">
+        <div class="vertical-center">
+            <center><iframe width="560" height="315" src="https://www.youtube.com/embed/VDGD7kEiksQ?&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        </div>
+    </div>
   </body>
 </html>
